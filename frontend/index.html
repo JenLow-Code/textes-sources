@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f0e7" />
+  <meta name="description" content="Textes & Sources — lire et comparer la Bible Louis Segond 1910 et le Coran, puis examiner manuscrits, langues, histoire et interprétations." />
+  <meta name="color-scheme" content="light dark" />
+  <title>Textes & Sources — Bible, Coran, manuscrits et histoire</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#mainContent">Aller au contenu</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" data-route="home" aria-label="Textes & Sources — accueil">
+      <span class="brand-seal" aria-hidden="true">T<span>·</span>S</span>
+      <span class="brand-copy"><strong>TEXTES & SOURCES</strong><small>Lire · comparer · documenter</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <button class="nav-btn active" data-view="home">Accueil</button>
+      <button class="nav-btn" data-view="reader">Lire</button>
+      <button class="nav-btn" data-view="compare">Comparer</button>
+      <button class="nav-btn" data-view="dossiers">Dossiers</button>
+      <button class="nav-btn" data-view="library">Bibliothèque</button>
+      <button class="nav-btn" data-view="method">Méthode</button>
+    </nav>
+
+    <div class="top-actions">
+      <button id="openCommand" class="command-btn" title="Aller à une référence"><span>⌕</span><span class="command-label">Aller à…</span><kbd>⌘K</kbd></button>
+      <button id="themeToggle" class="icon-btn" title="Changer de thème" aria-label="Changer de thème">◐</button>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section id="home" class="view active-view home-view" aria-labelledby="homeHeading">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">TEXTES · MANUSCRITS · HISTOIRE · INTERPRÉTATIONS</span>
+          <h1 id="homeHeading">Le texte d’abord.<br><em>Les conclusions ensuite.</em></h1>
+          <p>Lire la Bible et le Coran dans leur contexte, confronter les témoins anciens, distinguer traduction et interprétation, puis documenter chaque conclusion avec une source vérifiable.</p>
+          <div class="hero-actions">
+            <button class="primary-btn hero-btn" data-home-action="bible">Lire la Bible</button>
+            <button class="outline-btn hero-btn" data-home-action="quran">Lire le Coran</button>
+            <button class="text-btn hero-link" data-home-action="isaiah42">Voir le dossier Ésaïe 42 →</button>
+          </div>
+          <div class="source-strip" aria-label="Sources de lecture">
+            <span><i class="dot ok"></i> Louis Segond 1910 · domaine public</span>
+            <span><i class="dot"></i> Coran arabe Uthmani + traductions attribuées</span>
+          </div>
+        </div>
+        <div class="hero-principles" aria-label="Principes de méthode">
+          <article><span>01</span><div><strong>Contexte</strong><p>Le chapitre complet avant le verset isolé.</p></div></article>
+          <article><span>02</span><div><strong>Témoin</strong><p>Identifier la langue, la date et la provenance.</p></div></article>
+          <article><span>03</span><div><strong>Niveau de preuve</strong><p>Fait attesté, déduction, interprétation ou hypothèse.</p></div></article>
+          <article><span>04</span><div><strong>Contradiction utile</strong><p>Présenter les lectures concurrentes sans les confondre avec le texte.</p></div></article>
+        </div>
+      </div>
+
+      <div class="home-grid">
+        <article class="home-card home-card-wide">
+          <span class="eyebrow">LECTURE SYNOPTIQUE</span>
+          <h2>Mettre les textes côte à côte.</h2>
+          <p>Compare un passage biblique à sa citation dans le Nouveau Testament, ou confronte une allégation coranique au texte biblique invoqué.</p>
+          <div class="example-row">
+            <button data-compare-preset="Ésaïe 42:1-4|Matthieu 12:17-21">Ésaïe 42 ↔ Matthieu 12</button>
+            <button data-compare-preset="Jean 14:16-26|Coran 61:6">Jean 14 ↔ Coran 61:6</button>
+            <button data-compare-preset="Deutéronome 18:15-22|Coran 7:157">Deutéronome 18 ↔ Coran 7:157</button>
+          </div>
+        </article>
+        <article class="home-card">
+          <span class="eyebrow">DOSSIERS</span>
+          <h2>Une affirmation, toutes les couches de preuve.</h2>
+          <p>Texte, manuscrits, traductions anciennes, histoire de l’interprétation et degré de certitude.</p>
+          <button class="text-btn" data-route="dossiers">Explorer les dossiers →</button>
+        </article>
+        <article class="home-card">
+          <span class="eyebrow">BIBLIOTHÈQUE</span>
+          <h2>Remonter aux sources.</h2>
+          <p>Institutions, fac-similés, corpus, éditions et outils de recherche clairement identifiés.</p>
+          <button class="text-btn" data-route="library">Voir la bibliothèque →</button>
+        </article>
+      </div>
+
+      <section class="editorial-note">
+        <span class="eyebrow">LIGNE ÉDITORIALE</span>
+        <p><strong>Textes & Sources n’efface pas les désaccords.</strong> Le site doit permettre de voir exactement où s’arrête une donnée textuelle et où commence une interprétation juive, chrétienne, musulmane ou académique.</p>
+      </section>
+    </section>
+
+    <section id="reader" class="view" aria-labelledby="readerHeading">
+      <div class="reader-shell">
+        <aside class="left-rail">
+          <div class="corpus-tabs" role="tablist" aria-label="Choisir le corpus">
+            <button id="bibleTab" class="corpus-tab active" role="tab" aria-selected="true">Bible</button>
+            <button id="quranTab" class="corpus-tab" role="tab" aria-selected="false">Coran</button>
+          </div>
+
+          <div id="bibleControls" class="controls-stack">
+            <label><span>Livre</span><select id="bibleBook"></select></label>
+            <label><span>Chapitre</span><select id="bibleChapter"></select></label>
+          </div>
+
+          <div id="quranControls" class="controls-stack hidden">
+            <label><span>Sourate</span><select id="quranSurah"></select></label>
+            <label><span>Traduction</span><select id="quranEdition"><option value="fr.hamidullah">Muhammad Hamidullah</option></select></label>
+          </div>
+
+          <div class="rail-section">
+            <p class="mini-title">PASSAGES FRÉQUENTS</p>
+            <button class="jump-link" data-jump="bible|isaiah|42"><span>Ésaïe</span><b>42</b></button>
+            <button class="jump-link" data-jump="bible|micah|5"><span>Michée</span><b>5</b></button>
+            <button class="jump-link" data-jump="bible|matthew|12"><span>Matthieu</span><b>12</b></button>
+            <button class="jump-link" data-jump="bible|john|14"><span>Jean</span><b>14</b></button>
+            <button class="jump-link" data-jump="quran|61"><span>Coran</span><b>61</b></button>
+            <button class="jump-link" data-jump="quran|7"><span>Coran</span><b>7</b></button>
+          </div>
+
+          <div class="rail-section saved-section">
+            <div class="rail-title-row"><p class="mini-title">MARQUE-PAGES</p><span id="bookmarkCount">0</span></div>
+            <div id="bookmarkList" class="bookmark-list"><p class="empty-small">Aucun passage enregistré.</p></div>
+          </div>
+        </aside>
+
+        <article class="reading-column">
+          <header class="reading-header">
+            <div>
+              <span id="readerKicker" class="eyebrow">BIBLE · LOUIS SEGOND 1910</span>
+              <h2 id="readerHeading">Jean 3</h2>
+              <p id="readerMeta" class="reader-meta">Nouveau Testament</p>
+            </div>
+            <div class="reading-actions">
+              <button id="prevChapter" class="square-btn" title="Chapitre précédent" aria-label="Chapitre précédent">←</button>
+              <button id="nextChapter" class="square-btn" title="Chapitre suivant" aria-label="Chapitre suivant">→</button>
+              <span class="action-divider"></span>
+              <button id="fontMinus" class="square-btn" title="Réduire le texte">A−</button>
+              <button id="fontPlus" class="square-btn" title="Agrandir le texte">A+</button>
+            </div>
+          </header>
+
+          <div id="readerBody" class="scripture-body" aria-live="polite">
+            <div class="loading"><span></span><span></span><span></span></div>
+          </div>
+
+          <footer class="reading-footer">
+            <p id="readerCredit"></p>
+            <button id="copyChapter" class="text-btn">Copier le chapitre</button>
+          </footer>
+        </article>
+
+        <aside class="study-rail">
+          <div class="study-sticky">
+            <div class="study-heading">
+              <p class="mini-title">ÉTUDE DU PASSAGE</p>
+              <span id="selectedBadge" class="selected-badge">Chapitre</span>
+            </div>
+
+            <div id="studyCard" class="study-card">
+              <p class="study-placeholder">Clique sur un verset pour l’isoler, le copier, le comparer ou lui associer une note.</p>
+            </div>
+
+            <div class="study-actions">
+              <button id="copySelection" class="outline-btn" disabled>Copier</button>
+              <button id="compareSelection" class="outline-btn" disabled>Comparer</button>
+              <button id="bookmarkSelection" class="outline-btn" disabled>☆ Enregistrer</button>
+            </div>
+
+            <div class="note-card">
+              <label for="personalNote">NOTE PERSONNELLE</label>
+              <textarea id="personalNote" placeholder="Observation, question, argument à vérifier…"></textarea>
+              <small>Stockée uniquement dans ce navigateur.</small>
+            </div>
+
+            <div id="contextBox" class="context-box"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="compare" class="view" aria-labelledby="compareHeading">
+      <div class="section-heading narrow">
+        <span class="eyebrow">LECTURE SYNOPTIQUE</span>
+        <h2 id="compareHeading">Comparer deux passages sans les sortir de leur contexte.</h2>
+        <p>Saisis une référence biblique ou coranique avec une plage de versets : <strong>Ésaïe 42:1-4</strong>, <strong>Jean 14:16-26</strong> ou <strong>Coran 61:6</strong>.</p>
+      </div>
+
+      <div class="compare-presets">
+        <button data-compare-preset="Ésaïe 42:1-4|Matthieu 12:17-21">Ésaïe 42 ↔ Matthieu 12</button>
+        <button data-compare-preset="Jean 14:16-26|Coran 61:6">Paraclet ↔ Ahmad</button>
+        <button data-compare-preset="Michée 5:1-4|Matthieu 2:1-6">Michée 5 ↔ Matthieu 2</button>
+      </div>
+
+      <div class="compare-controlbar">
+        <label><span>A</span><input id="compareAInput" value="Ésaïe 42:1-4" aria-label="Référence A" /></label>
+        <button id="swapCompare" class="swap-btn" title="Inverser les passages">⇄</button>
+        <label><span>B</span><input id="compareBInput" value="Matthieu 12:17-21" aria-label="Référence B" /></label>
+        <button id="runCompare" class="primary-btn">Comparer</button>
+      </div>
+
+      <div class="compare-grid">
+        <article class="compare-pane"><div id="compareA" class="compare-content"></div></article>
+        <article class="compare-pane"><div id="compareB" class="compare-content"></div></article>
+      </div>
+    </section>
+
+    <section id="dossiers" class="view" aria-labelledby="dossiersHeading">
+      <div class="section-heading">
+        <span class="eyebrow">DOSSIERS DOCUMENTÉS</span>
+        <h2 id="dossiersHeading">Une question, plusieurs couches de preuve.</h2>
+        <p>Chaque dossier suit la même structure : <strong>affirmation</strong> → <strong>texte</strong> → <strong>témoins anciens</strong> → <strong>interprétations</strong> → <strong>degré de certitude</strong>.</p>
+      </div>
+      <div id="dossierGrid" class="dossier-grid"><div class="loading"><span></span><span></span><span></span></div></div>
+      <div id="dossierDetailHost"></div>
+    </section>
+
+    <section id="library" class="view" aria-labelledby="libraryHeading">
+      <div class="section-heading">
+        <span class="eyebrow">BIBLIOTHÈQUE DE RECHERCHE</span>
+        <h2 id="libraryHeading">Remonter aux sources avant de conclure.</h2>
+        <p>Institutions, fac-similés, corpus, éditions et outils sont identifiés par type afin de ne pas mettre une source primaire, un commentaire confessionnel et un article de vulgarisation au même niveau.</p>
+      </div>
+      <div class="library-toolbar">
+        <input id="librarySearch" type="search" placeholder="Filtrer : Qumrân, grec, manuscrit, Coran, Bible…" />
+        <div class="library-legend"><span>Primaire</span><span>Institution</span><span>Outil</span><span>Édition</span></div>
+      </div>
+      <div id="libraryGrid" class="library-grid"><div class="loading"><span></span><span></span><span></span></div></div>
+    </section>
+
+    <section id="method" class="view" aria-labelledby="methodHeading">
+      <div class="section-heading narrow">
+        <span class="eyebrow">MÉTHODE</span>
+        <h2 id="methodHeading">Ne pas donner le même poids à toutes les affirmations.</h2>
+        <p>Le site utilise des niveaux explicites afin que le lecteur sache si une proposition vient directement d’un document ancien, d’une traduction, d’une reconstruction ou d’une lecture théologique.</p>
+      </div>
+      <div class="method-grid">
+        <article><span class="method-level l1">A</span><h3>Donnée directement attestée</h3><p>Lecture d’un manuscrit, texte d’une inscription, mot effectivement présent dans une édition ancienne.</p><small>Exemple : une lecture visible dans 1QIsaᵃ.</small></article>
+        <article><span class="method-level l2">B</span><h3>Conclusion fortement étayée</h3><p>Plusieurs témoins indépendants convergent, sans être identiques en tout point.</p><small>Exemple : une lecture soutenue par hébreu ancien + traduction grecque ancienne.</small></article>
+        <article><span class="method-level l3">C</span><h3>Interprétation plausible</h3><p>Le texte permet la lecture, mais d’autres lectures sérieuses existent.</p><small>La tradition interprétative doit être nommée.</small></article>
+        <article><span class="method-level l4">D</span><h3>Hypothèse spéculative</h3><p>La proposition exige des reconstructions qui ne sont pas directement attestées.</p><small>Elle peut être discutée, mais pas présentée comme un fait.</small></article>
+      </div>
+      <div class="method-rules">
+        <h3>Règles éditoriales</h3>
+        <ol>
+          <li><strong>Ne jamais écrire « le texte dit »</strong> lorsqu’il s’agit en réalité d’une interprétation.</li>
+          <li><strong>Donner la provenance</strong> : manuscrit, édition, institution, auteur, date et lien lorsque disponibles.</li>
+          <li><strong>Signaler les variantes réelles</strong> au lieu de prétendre à une identité lettre pour lettre quand elle n’existe pas.</li>
+          <li><strong>Présenter les lectures concurrentes</strong> sous leur propre nom : juive, chrétienne, musulmane, académique, etc.</li>
+          <li><strong>Réviser les dossiers</strong> quand une source plus ancienne ou une meilleure édition modifie le niveau de preuve.</li>
+        </ol>
+      </div>
+      <div class="method-disclaimer">
+        <strong>Positionnement</strong>
+        <p>Le site peut examiner des affirmations religieuses fortes, mais son architecture documentaire doit toujours permettre au lecteur de distinguer ce qui est vérifiable de ce qui relève de la foi ou de l’interprétation.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><span class="brand-seal small">T<span>·</span>S</span><div><strong>TEXTES & SOURCES</strong><p>Projet indépendant de lecture et de documentation.</p></div></div>
+    <div class="footer-data">
+      <p><b>Bible</b> Louis Segond 1910 via Midvash · texte signalé domaine public.</p>
+      <p><b>Coran</b> arabe Uthmani + traductions via Al Quran Cloud · attribution du traducteur conservée.</p>
+      <p>Les lectures théologiques sont présentées comme des interprétations, pas comme des données manuscrites.</p>
+    </div>
+  </footer>
+
+  <dialog id="commandDialog" class="command-dialog">
+    <form method="dialog">
+      <div class="command-head"><span>⌕</span><input id="commandInput" autocomplete="off" placeholder="Ésaïe 42:1-4, Jean 14, Coran 61:6…" /><button value="cancel" aria-label="Fermer">Esc</button></div>
+      <div class="command-help"><span>Entrée : ouvrir</span><span>Exemples : « Michée 5 », « Coran 7:157 »</span></div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

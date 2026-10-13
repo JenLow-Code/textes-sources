@@ -1,0 +1,17 @@
+{
+  "name": "Textes & Sources",
+  "short_name": "T&S",
+  "start_url": "./#home",
+  "display": "standalone",
+  "background_color": "#f4f0e7",
+  "theme_color": "#f4f0e7",
+  "description": "Lire, comparer et documenter la Bible Louis Segond 1910 et le Coran.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

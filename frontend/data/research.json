@@ -1,0 +1,292 @@
+{
+  "version": "2026-10-09",
+  "dossiers": [
+    {
+      "id": "isaiah42",
+      "status": "live",
+      "version": "v1.0",
+      "readingTime": "10–15 min",
+      "title": "Ésaïe 42 : le Serviteur, Kédar et l’argument « Ahmad »",
+      "summary": "Distinguer ce que portent les témoins textuels anciens de l’identification théologique du Serviteur.",
+      "questionTitle": "Ésaïe 42 : que peut-on réellement démontrer ?",
+      "question": "Le nom « Ahmad » ou « Mohammed » apparaît-il explicitement dans Ésaïe 42 ?",
+      "shortAnswer": "Dans les témoins connus examinés : non.",
+      "evidence": [
+        {
+          "type": "TEXTE HÉBREU",
+          "title": "Ésaïe 42:1",
+          "html": "Le texte massorétique porte <b>אֶתְמָךְ־בּוֹ</b>, analysé comme une forme du verbe <b>תמך</b>, « soutenir / tenir ».",
+          "reference": "Ésaïe 42:1",
+          "sourceId": "sefaria-isaiah",
+          "grade": "A",
+          "certainty": "donnée textuelle"
+        },
+        {
+          "type": "MANUSCRIT",
+          "title": "1QIsaᵃ — Grand Rouleau d’Ésaïe",
+          "html": "Le témoin de Qumrân, antérieur de plusieurs siècles à l’islam, porte une forme de la même racine verbale et non le nom <i>Ahmad</i>.",
+          "sourceId": "israel-museum-isaiah",
+          "grade": "A",
+          "certainty": "témoin ancien"
+        },
+        {
+          "type": "TRANSCRIPTION",
+          "title": "Qumran Digital",
+          "text": "Une transcription numérique indépendante permet de contrôler la lecture du rouleau et son contexte immédiat.",
+          "sourceId": "qumran-digital",
+          "grade": "A",
+          "certainty": "transcription vérifiable"
+        },
+        {
+          "type": "NOUVEAU TESTAMENT",
+          "title": "Matthieu 12:17-21",
+          "text": "Matthieu cite Ésaïe 42:1-4 et applique le passage à Jésus dans son propre cadre théologique.",
+          "reference": "Matthieu 12:17-21",
+          "sourceId": "midvash",
+          "grade": "A",
+          "certainty": "citation explicite dans Matthieu"
+        },
+        {
+          "type": "GÉOGRAPHIE",
+          "title": "Kédar — Ésaïe 42:10-12",
+          "text": "Kédar figure parmi les populations appelées à se réjouir et à rendre gloire à YHWH. Le passage ne dit pas que le Serviteur « sort de Kédar ».",
+          "reference": "Ésaïe 42:10-12",
+          "sourceId": "midvash",
+          "grade": "B",
+          "certainty": "lecture contextuelle forte"
+        },
+        {
+          "type": "MÉTHODE",
+          "title": "Que faudrait-il pour établir « Ahmad » ?",
+          "text": "Un témoin manuscrit, une traduction ancienne ou une tradition textuelle indépendante portant réellement ce nom. Une simple ressemblance graphique ne suffit pas.",
+          "grade": "B",
+          "certainty": "principe de critique textuelle"
+        }
+      ],
+      "perspectives": [
+        {
+          "kind": "fact",
+          "label": "Donnée textuelle",
+          "text": "Les témoins anciens cités dans ce dossier ne portent pas « Ahmad » en Ésaïe 42:1."
+        },
+        {
+          "kind": "christian",
+          "label": "Lecture chrétienne",
+          "text": "Matthieu 12:17-21 identifie le Serviteur de ce passage à Jésus dans la lecture chrétienne du Nouveau Testament."
+        },
+        {
+          "kind": "muslim",
+          "label": "Lecture musulmane",
+          "text": "Certains apologètes musulmans relient le Serviteur, Kédar ou le « chant nouveau » à Mohammed. Cette identification doit être présentée comme une interprétation, non comme la présence explicite du nom dans le texte hébreu attesté."
+        },
+        {
+          "kind": "academic",
+          "label": "Question historique",
+          "text": "L’enjeu historique n’est pas de savoir si une lecture religieuse est possible, mais si elle est attestée par les témoins textuels disponibles et à quelle date."
+        }
+      ],
+      "sourceIds": [
+        "israel-museum-isaiah",
+        "qumran-digital",
+        "sefaria-isaiah",
+        "midvash",
+        "ebible-lsg"
+      ]
+    },
+    {
+      "id": "paraclete",
+      "status": "planned",
+      "readingTime": "",
+      "title": "Le Paraclet de Jean 14–16",
+      "summary": "Paráklētos, « Esprit de vérité », manuscrits grecs et lectures chrétiennes / musulmanes."
+    },
+    {
+      "id": "deut18",
+      "status": "planned",
+      "readingTime": "",
+      "title": "Deutéronome 18 : « un prophète comme Moïse »",
+      "summary": "Contexte du Deutéronome, « leurs frères », réception juive, chrétienne et islamique."
+    },
+    {
+      "id": "micah5",
+      "status": "planned",
+      "readingTime": "",
+      "title": "Michée 5 et Bethléhem",
+      "summary": "Texte hébreu, anciennes traductions, contexte royal et usage de la prophétie dans Matthieu."
+    },
+    {
+      "id": "quran-bible",
+      "status": "planned",
+      "readingTime": "",
+      "title": "Le Coran affirme-t-il que Mohammed est « écrit » dans la Torah et l’Évangile ?",
+      "summary": "Étude de Coran 7:157 et 61:6, puis examen des textes bibliques invoqués."
+    },
+    {
+      "id": "transmission",
+      "status": "planned",
+      "readingTime": "",
+      "title": "La Bible a-t-elle été falsifiée ?",
+      "summary": "Variantes manuscrites réelles, critique textuelle, Qumrân, papyri et distinction entre variation et falsification systématique."
+    }
+  ],
+  "sources": [
+    {
+      "id": "israel-museum-isaiah",
+      "kind": "Institution",
+      "category": "MANUSCRITS",
+      "title": "Israel Museum — Great Isaiah Scroll",
+      "description": "Fac-similé et présentation institutionnelle du Grand Rouleau d’Ésaïe (1QIsaᵃ).",
+      "url": "https://dss.collections.imj.org.il/isaiah",
+      "tags": [
+        "Qumran",
+        "Isaiah",
+        "1QIsa",
+        "Dead Sea Scrolls",
+        "manuscrit",
+        "hébreu"
+      ],
+      "icon": "⌘"
+    },
+    {
+      "id": "qumran-digital",
+      "kind": "Transcription",
+      "category": "MANUSCRITS",
+      "title": "Qumran Digital — transcription 1QIsaᵃ",
+      "description": "Transcription numérique du rouleau, utile pour contrôler les lectures mot à mot.",
+      "url": "https://lexicon.qumran-digital.org/transcriptions/1QIsa%5Ea%5E/2022-10-14/index.html",
+      "tags": [
+        "Qumran",
+        "transcription",
+        "Isaiah",
+        "hébreu"
+      ],
+      "icon": "א"
+    },
+    {
+      "id": "sefaria-isaiah",
+      "kind": "Édition / outil",
+      "category": "TEXTE HÉBREU",
+      "title": "Sefaria — Isaiah 42",
+      "description": "Accès au texte hébreu et à plusieurs couches de commentaires ; utile comme outil de consultation, à distinguer du manuscrit lui-même.",
+      "url": "https://www.sefaria.org/Isaiah.42?lang=bi",
+      "tags": [
+        "hébreu",
+        "Isaïe",
+        "Massorétique",
+        "commentaires",
+        "juif"
+      ],
+      "icon": "ת"
+    },
+    {
+      "id": "midvash",
+      "kind": "API / édition",
+      "category": "BIBLE",
+      "title": "Midvash Bible API",
+      "description": "API sans clé utilisée par le lecteur pour Louis Segond 1910 ; la source indique ses versions comme domaine public ou licence libre et fournit le crédit avec le texte.",
+      "url": "https://api.midvash.com/fr",
+      "tags": [
+        "Bible",
+        "Louis Segond",
+        "1910",
+        "API",
+        "domaine public"
+      ],
+      "icon": "✦"
+    },
+    {
+      "id": "ebible-lsg",
+      "kind": "Édition",
+      "category": "BIBLE",
+      "title": "eBible — Louis Segond 1910",
+      "description": "Fiche de l’édition Louis Segond 1910, explicitement signalée comme domaine public.",
+      "url": "https://ebible.org/Scriptures/details.php?id=fraLSG",
+      "tags": [
+        "Bible",
+        "Louis Segond",
+        "1910",
+        "public domain"
+      ],
+      "icon": "LS"
+    },
+    {
+      "id": "alquran-api",
+      "kind": "API / corpus",
+      "category": "CORAN",
+      "title": "Al Quran Cloud — API",
+      "description": "Corpus arabe et éditions/traductions accessibles par API. Le site conserve l’identifiant et l’attribution de la traduction affichée.",
+      "url": "https://alquran.cloud/api",
+      "tags": [
+        "Coran",
+        "Quran",
+        "arabe",
+        "traduction",
+        "API"
+      ],
+      "icon": "ق"
+    },
+    {
+      "id": "alquran-terms",
+      "kind": "Licence / conditions",
+      "category": "CORAN",
+      "title": "Al Quran Cloud — Terms & Conditions",
+      "description": "Conditions de réutilisation du texte arabe, limites d’usage de l’API et attribution des traductions.",
+      "url": "https://alquran.cloud/terms-and-conditions",
+      "tags": [
+        "Coran",
+        "licence",
+        "translation",
+        "rights",
+        "conditions"
+      ],
+      "icon": "§"
+    },
+    {
+      "id": "codex-sinaiticus",
+      "kind": "Institution",
+      "category": "NOUVEAU TESTAMENT",
+      "title": "Codex Sinaiticus Project",
+      "description": "Fac-similés et données sur un important manuscrit biblique grec du IVe siècle.",
+      "url": "https://codexsinaiticus.org/en/",
+      "tags": [
+        "grec",
+        "Nouveau Testament",
+        "manuscrit",
+        "Sinaiticus",
+        "codex"
+      ],
+      "icon": "Ω"
+    },
+    {
+      "id": "csntm",
+      "kind": "Institution",
+      "category": "NOUVEAU TESTAMENT",
+      "title": "CSNTM — Center for the Study of New Testament Manuscripts",
+      "description": "Images et catalogage de manuscrits grecs du Nouveau Testament.",
+      "url": "https://manuscripts.csntm.org/",
+      "tags": [
+        "grec",
+        "Nouveau Testament",
+        "papyri",
+        "manuscrits"
+      ],
+      "icon": "𝔐"
+    },
+    {
+      "id": "stepbible",
+      "kind": "Outil",
+      "category": "LANGUES ANCIENNES",
+      "title": "STEP Bible — Tyndale House",
+      "description": "Outil de consultation du grec et de l’hébreu, morphologie, lexiques et comparaison de versions.",
+      "url": "https://www.stepbible.org/",
+      "tags": [
+        "grec",
+        "hébreu",
+        "lexique",
+        "morphologie",
+        "Bible"
+      ],
+      "icon": "⌕"
+    }
+  ]
+}
